@@ -8,14 +8,14 @@ public class Test {
 		if (c == 3) {
 			System.out.println("Correct! 1+2=3");
 		} else {
-			System.out.println("Wrong! 1+2¡Ù" + c);
+			System.out.println("Wrong! 1+2" + c);
 		}
 		
 		int d = aPlusB.plus(5, 11);
 		if (d == 16) {
 			System.out.println("Correct! 5+11=16");
 		} else {
-			System.out.println("Wrong! 5+11¡Ù" + d);
+			System.out.println("Wrong! 5+11" + d);
 		}
 	}
 }

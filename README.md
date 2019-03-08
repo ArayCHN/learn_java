@@ -21,3 +21,11 @@ java example.Test
 ~~~
 
 Here `example` refers to the package, while `Test` is the `Test` class within this package.
+
+The full command set for the compilation is summarized below:
+
+~~~
+# inside src/example folder:
+javac -d ../../build/  Example.java Test.java # compile
+java ../../build/example.Test # execute
+~~~
