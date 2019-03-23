@@ -27,5 +27,6 @@ The full command set for the compilation is summarized below:
 ~~~
 # inside src/example folder:
 javac -d ../../build/  Example.java Test.java # compile
-java ../../build/example.Test # execute
+cd ../../build # must execute commands from this dir!
+java example.Test # execute
 ~~~
