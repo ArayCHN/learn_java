@@ -30,3 +30,13 @@ javac -d ../../build/  Example.java Test.java # compile
 cd ../../build # must execute commands from this dir!
 java example.Test # execute
 ~~~
+
+## How to create a jar package
+
+A `.jar` file can be clicked on and run directly cross-platform.
+
+Suppose we already have a package compiled as `packageName`, and it contains two classes `Class1.java` and `Main.java`. Normally we would run `java packageName.Main`. Now to create a `JarFileName.jar` file that can be double-clicked launch directly, we run the following command:
+
+~~~
+jar cvfe JarFileName.jar package.Main packageName
+~~~
